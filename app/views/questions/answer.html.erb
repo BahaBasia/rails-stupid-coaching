@@ -1,0 +1,19 @@
+
+<%# <div class="main question" >
+ <span class="input_question"><%= @question %></span>
+  <%# <span class="input_author"><em>You</em></span>
+</div> %>
+
+
+<div class="callout callout-default" >
+ <span><%= @question %></span>
+  <p> - You</p>
+</div>
+
+<div class="callout callout-warning" >
+ <span><%= @answer %> </span>
+ <p>- Coach</p>
+</div>
+
+
+<p class="backlink"><%= link_to "Ask a new Question", ask_path %></p>
